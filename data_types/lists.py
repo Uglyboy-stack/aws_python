@@ -82,12 +82,32 @@ print(customers[0]["first name"])  # Accessing first name of the first customer
 print(customers[0]["phone number"][1])  # Accessing phone number of the first customer
 
 def add_numbers(first_number, second_number):
-    sub_numbers = first_number - second_number
     total = first_number + second_number
     print(total)
-    print(sub_numbers)
     
-
 add_numbers(600, 250)
+
+def sub_numbers(first_number, second_number):
+    total = first_number - second_number
+    print(total)
+
+sub_numbers(600, 250)
+
+def div_number():
+    first_value = int(input("Enter first value: "))
+    second_value = int(input("Enter second value: "))
+    total = first_value / second_value
+    print(total)
+    
+div_number()    
+
+def div_number():
+    first_value = float(input("Enter first value: "))
+    second_value = float(input("Enter second value: "))
+    total = first_value / second_value
+    print(total)
+    
+div_number()  
+    
 
 
