@@ -51,7 +51,8 @@ customers = [
         "first name": "Alice",
         "last name": "Smith",
         "address": "123 Main St, Springfield",
-    }
+        "phone number": [555-1234, 555-5678, 555-8765],
+    },
     {
         "customer id": 1,
         "first name": "Bob",
@@ -71,3 +72,22 @@ customers = [
         "address": "101 Pine St, Springfield",
     }
 ]
+print(customers[0])
+print(customers[1])
+print(customers[2])
+print(customers[3])
+
+print(len(customers))  # Length of the customers list
+print(customers[0]["first name"])  # Accessing first name of the first customer
+print(customers[0]["phone number"][1])  # Accessing phone number of the first customer
+
+def add_numbers(first_number, second_number):
+    sub_numbers = first_number - second_number
+    total = first_number + second_number
+    print(total)
+    print(sub_numbers)
+    
+
+add_numbers(600, 250)
+
+
