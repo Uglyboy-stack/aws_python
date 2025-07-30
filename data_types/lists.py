@@ -42,4 +42,32 @@ print("Class roster names from index 1 to 3:", class_roster[1:4])
 print("Test scores from index 1 to 3:", test_scores[1:4])
 
 print("Class roster names from index 2 to end:", class_roster[2:])
+
 print("Test scores from index 2 to end:", test_scores[2:])
+
+customers = [
+    {
+        "customer id": 0,
+        "first name": "Alice",
+        "last name": "Smith",
+        "address": "123 Main St, Springfield",
+    }
+    {
+        "customer id": 1,
+        "first name": "Bob",
+        "last name": "Johnson",
+        "address": "456 Elm St, Springfield",
+    },
+    {
+        "customer id": 2,
+        "first name": "Charlie",
+        "last name": "Brown",
+        "address": "789 Oak St, Springfield",
+    },
+    {
+        "customer id": 3,
+        "first name": "David",
+        "last name": "Williams",
+        "address": "101 Pine St, Springfield",
+    }
+]
